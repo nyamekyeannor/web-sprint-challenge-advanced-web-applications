@@ -59,16 +59,16 @@ In this project, you will demonstrate your mastery of these skills by creating *
 
 > _Build the needed utilities to restrict access to private routes._
 
-- [ ] Build a `Route` component that renders rendering `Login.js` to the path `/`.
-- [ ] Build a `Route` component that renders rendering `Login.js` to the path `/login`.
-- [ ] Build a `Route` component that renders rendering `View.js` to the path `/view`.
-- [ ] Build a `Route` component that renders rendering `Logout.js` to the path `/logout`.
+- [x] Build a `Route` component that renders rendering `Login.js` to the path `/`.
+- [x] Build a `Route` component that renders rendering `Login.js` to the path `/login`.
+- [x] Build a `Route` component that renders rendering `View.js` to the path `/view`.
+- [x] Build a `Route` component that renders rendering `Logout.js` to the path `/logout`.
 
 ### Login Authentication
 
 > _Build a login form to authenticate your users along with all the components and utilities needed to support authentication._
 
-- [ ] In `Login.js`, build all UI and state functionality needed to capture a username and password. On a successful login, redirect user to the `View.js` component.
+- [x] In `Login.js`, build all UI and state functionality needed to capture a username and password. On a successful login, redirect user to the `View.js` component.
 - [ ] **Make sure that the input for your username and password includes the id="username" and id="password" attributes. Codegrade autotests will fail without them.**
 - [ ] **Make sure that the submit button to your login form includes the id="submit" attribute. Codegrade autotests will fail without them.**
 - [ ] In `Login.js`, add a p tag that will display an error if one occurs. Add in all state functionality needed to support error display.
